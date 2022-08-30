@@ -1,6 +1,7 @@
 import { Box, Typography, Grid, Avatar } from '@material-ui/core';
 import { useStyles as BodyStyles} from '../BodyComponents/BodyStyles';
 import { useStyles } from '../Headers/HeaderStyles';
+import React from "react";
 
 export const Decorator = ({ label, withIcon, Icon, styles }) => {
     const classes = useStyles();
